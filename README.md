@@ -1,11 +1,62 @@
 # GreenSloth
 
-In 2022, Elouen, the creator of GreenSloth, wrote his Bachelor's thesis about comparing the popular and simple steady-state Farquhar, von Caemmerer, and Berry Model (FvCB model) and a kinetic photosynthesis model. While searching for the other model, he searched various public sources for scientific literature and tried to recreate several models. During this time, he arrived at one conclusion: modeling, especially photosynthesis, aims to help others understand more of the essential process of life on Earth. However, the scientific community has not achieved a common way to share its models. This is where the idea of GreenSloth first came into play.
+**A curated, open repository of dynamic photosynthesis models.**
 
-During his further experience with photosynthetic models, he found that this issue was common for experts and amateurs in modelling, which inspired his mind even more to find a solution. He wanted to create a resource that collects popular photosynthesis models and enables an easier summary and accessibility, especially for amateurs in the modelling field.
+---
 
-With GreenSloth, Elouen hopes to facilitate researchers' access to the modelling world. He believes this is vital to understanding and coping with the complexity of photosynthesis. This website will enable even better scientific transparency.
+## Why GreenSloth?
 
+Photosynthesis underpins nearly all life on Earth, yet the models that describe it are scattered across supplementary materials, personal repositories, and institutional pages that disappear when funding ends. Despite generous funding and overwhelming global effort, the field has no shared infrastructure in terms of models. This leads to similar models being redeeloped, stalling collaborative progress.
+
+GreenSloth was built to change that.
+
+Inspired by the legacy of E-photosynthesis and the growing gap between the pace of model development and the community's ability to access, compare, and build on that work, GreenSloth is a living repository of curated, documented, and modular photosynthesis models. From the classical steady-state Farquhar–von Caemmerer–Berry (FvCB) framework to state-of-the-art kinetic and dynamic systems models, including e-photosynthesis.
+
+---
+
+## Who is GreenSloth for?
+
+**Experimentalists**  
+You collected beautiful data — chlorophyll fluorescence transients, 
+gas exchange curves, proteomics under fluctuating light — and you want 
+to know whether the current mechanistic understanding of photosynthesis 
+can reproduce what you see. GreenSloth gives you a curated entry point 
+into simulation tools, with enough documentation to connect your 
+experimental conditions to the right model.
+
+**Computational Biologists & Modellers**  
+Building a model of a photosynthetic subsystem shouldn't mean starting 
+from scratch. GreenSloth organises models into modular, interoperable 
+components — electron transport, carbon fixation, photoprotection, 
+stomatal regulation — so you can assemble, compare, and extend existing 
+work rather than duplicating it.
+
+**AI & Machine Learning Researchers**  
+Hybrid approaches combining data-driven methods with first-principles 
+models are among the most promising frontiers in systems biology. 
+GreenSloth provides the mechanistic backbone: curated models that encode 
+decades of domain knowledge, ready to serve as physics-informed priors, 
+training constraints, or ground-truth benchmarks for neural network 
+architectures.
+
+---
+
+## What's in the repository?
+
+- Curated implementations of landmark photosynthesis models
+- Standardised metadata: biological scope, timescale, species, 
+  experimental context, and known limitations
+- Modular components tagged by subsystem
+- Links to primary literature and original datasets where available
+- Roadmap for community contributions
+
+---
+
+## The name
+
+The sloth is the only known mammal whose fur hosts photosynthetic organisms. Slow, deliberate, and surprisingly green, a fitting mascot for out project.
+
+---
 ## What is this
 
 All the models in the ecosystem of GreenSloth are found in this repository. Each model has its own directory, with a specific structure. The overarching name is the last Name of the first author and the date of publication of the model. This directory is best created using the [GreenSlothUtils](https://github.com/ElouenCorvest/GreenSlothUtils), as it will automatically use the name provided and insert it in the right places. Inside the model directory, you can find the following:
@@ -43,6 +94,8 @@ The `model_info` directory contains all the information about the model. The `.c
 The `README_script.py` file is the script that generates the README file of the model, which is the main file that is shown on the website. This script needs to be filled with the python variables, latex equations, summary, figure recreations, and demontrations of the model. The script is then run, which generates the README file.
 
 ## How to Contribute
+
+GreenSloth started as a master thesis project of M.Sc. Elouen Corvest who designed its first fully functioning prototype. After his defense, the project was expanded by the Matuszynska Lab and now grows through the community. If you have a model, a correction, or a missing reference, see CONTRIBUTING.md.
 
 To create a new model directory to be then included here, the best way is to follow the instructions in the [GreenSlothUtils](https://github.com/ElouenCorvest/GreenSlothUtils). This will automatically create the directory with the right structure and also fill in some of the files with the right information. After that, you can fill in the rest of the files with the information of the model. The README script is the most important file, as it generates the README file that is shown on the website. Therefore, it needs to be filled with care and attention to detail.
 
