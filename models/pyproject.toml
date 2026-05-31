@@ -86,3 +86,6 @@ ignore = [
   "T201", # print statements
   "D",    # all of documentation
 ]
+
+[tool.uv]
+exclude-newer = "3 days"
