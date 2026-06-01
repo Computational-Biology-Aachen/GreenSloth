@@ -2,7 +2,7 @@ from pathlib import Path
 
 from GreenSlothUtils import mxlbrickswriter
 
-from model import get_fuente2024
+from models.src.Fuente2024.model.model import get_fuente2024
 
 mxlbrickswriter.redefine_names(
     vars_glossary_path=Path(__file__).parents[2] / "comps_glossary.csv",

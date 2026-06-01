@@ -2,7 +2,7 @@ from pathlib import Path
 
 from GreenSlothUtils import mxlpy_formatter
 
-from model import get_bellasio2019
+from models.src.Bellasio2019.model.model import get_bellasio2019
 
 mxlpy_formatter.redefine_names(
     vars_glossary_path=Path(__file__).parents[2] / "comps_glossary.csv",

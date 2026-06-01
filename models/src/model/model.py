@@ -1,5 +1,5 @@
 """
-PS Module – Calvin Cycle (C3 photosynthesis)
+PS Module - Calvin Cycle (C3 photosynthesis)
 =============================================
 Converted from MATLAB ePhotosynthesis (cropsinsilico/ePhotosynthesis) to
 Python/mxlpy.
@@ -13,14 +13,14 @@ State variables (12 dynamic; CO2/O2/NADPH fixed as parameters in standalone):
   RuBP, PGA, DPGA, T3P, ADPG, FBP, E4P, S7P, SBP, ATP, HexP, PenP
 
 Derived (algebraic) quantities:
-  DHAP, GAP        – from T3P via triose-phosphate isomerase equilibrium KE4
-  ADP              – conserved adenylate: ADP = PS_C_CA − ATP
-  NADP             – conserved pyridine: NADP = PS_C_CN − NADPH (NADPH fixed)
-  F6P, G6P, G1P    – from hexose-phosphate lump HexP via KE21/KE22
-  Ru5P, Ri5P, Xu5P – from pentose-phosphate lump PenP via KE11/KE12
-  Pi               – from total-phosphate conservation + quadratic solve
-  TK_Den           – shared transketolase denominator (v7 and v10)
-  ATPreg           – regulator for phosphate translocator export
+  DHAP, GAP        - from T3P via triose-phosphate isomerase equilibrium KE4
+  ADP              - conserved adenylate: ADP = PS_C_CA − ATP
+  NADP             - conserved pyridine: NADP = PS_C_CN − NADPH (NADPH fixed)
+  F6P, G6P, G1P    - from hexose-phosphate lump HexP via KE21/KE22
+  Ru5P, Ri5P, Xu5P - from pentose-phosphate lump PenP via KE11/KE12
+  Pi               - from total-phosphate conservation + quadratic solve
+  TK_Den           - shared transketolase denominator (v7 and v10)
+  ATPreg           - regulator for phosphate translocator export
 
 Reactions (18):
   v1  RuBisCO           RuBP + CO2 → 2 PGA
