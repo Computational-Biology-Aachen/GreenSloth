@@ -1,3 +1,5 @@
+# Copyright 2025 Marvin van Aalst, Anna Matuszyńska
+
 def rapid_equilibrium_1s_1p(
     s1: float,
     p1: float,

@@ -1,3 +1,5 @@
+# Copyright 2025 Marvin van Aalst, Anna Matuszyńska
+
 """
 PS Module - Calvin Cycle (C3 photosynthesis)
 =============================================

@@ -1,3 +1,5 @@
+# Copyright 2025 Marvin van Aalst, Anna Matuszyńska
+
 def neg_div(x: float, y: float) -> float:
     return -x / y
 

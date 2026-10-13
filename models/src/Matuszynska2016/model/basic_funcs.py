@@ -1,3 +1,5 @@
+# Copyright 2025 Marvin van Aalst, Anna Matuszyńska
+
 def continous_subtraction(*args) -> float:
     if len(args) <= 1:
         raise ValueError("Not enough arguments given")

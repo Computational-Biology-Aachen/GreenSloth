@@ -1,3 +1,5 @@
+# Copyright 2025 Marvin van Aalst, Anna Matuszyńska
+
 from .day_simulation import create_day_simulation_fig
 from .inject_fvcb import create_fvcb_fig
 from .pam_fig import create_pam_fig

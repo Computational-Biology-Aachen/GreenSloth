@@ -1,3 +1,5 @@
+# Copyright 2025 Marvin van Aalst, Anna Matuszyńska
+
 __all__ = [
     "extract_select_to_gloss",
     "check_gloss_to_model",

@@ -1,3 +1,5 @@
+# Copyright 2025 Marvin van Aalst, Anna Matuszyńska
+
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 from mxlpy import Model, Simulator, make_protocol, plot

@@ -1,3 +1,5 @@
+# Copyright 2025 Marvin van Aalst, Anna Matuszyńska
+
 import numpy as np
 import numpy.typing as npt
 from mxlpy import Model

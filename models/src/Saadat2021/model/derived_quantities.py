@@ -1,3 +1,5 @@
+# Copyright 2025 Marvin van Aalst, Anna Matuszyńska
+
 from mxlpy import Model
 from mxlpy.surrogates import qss
 import numpy as np

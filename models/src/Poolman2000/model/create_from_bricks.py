@@ -1,3 +1,5 @@
+# Copyright 2025 Marvin van Aalst, Anna Matuszyńska
+
 from GreenSlothUtils.mxlbrickswriter import (
     write_init,
     write_derived,

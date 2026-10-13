@@ -1,3 +1,5 @@
+# Copyright 2025 Marvin van Aalst, Anna Matuszyńska
+
 from collections.abc import Callable, Iterable
 import numpy as np
 from mxlpy import Derived, InitialAssignment, Model, Parameter, Variable, units, Simulator

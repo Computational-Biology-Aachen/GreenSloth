@@ -1,3 +1,5 @@
+# Copyright 2025 Marvin van Aalst, Anna Matuszyńska
+
 from pathlib import Path
 
 from mdutils.mdutils import MdUtils  # noqa: E402

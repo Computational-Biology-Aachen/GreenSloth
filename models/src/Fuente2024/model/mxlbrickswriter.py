@@ -1,3 +1,5 @@
+# Copyright 2025 Marvin van Aalst, Anna Matuszyńska
+
 from pathlib import Path
 
 from GreenSlothUtils import mxlbrickswriter

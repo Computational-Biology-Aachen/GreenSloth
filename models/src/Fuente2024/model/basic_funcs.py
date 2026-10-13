@@ -1,3 +1,5 @@
+# Copyright 2025 Marvin van Aalst, Anna Matuszyńska
+
 def mass_action_1s(s1: float, k_fwd: float) -> float:
     return k_fwd * s1
 
